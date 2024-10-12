@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./script.js" />
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
+  </head>
+  <body>
+    <form action="" id="resumeform">
+        <div class="sec-div">
+            <div class="main-div">
+                <div>
+                    <p>Resume URL:</p>
+                    <input title="username" type="text"  class="input" id="username" required>
+                </div>
+    
+                <!-- Name and Occupation Block -->
+                <div class="ame">
+                    <p>Name:</p>
+                    <input class="input" id="Name" placeholder="Enter Your Name" type="text" title="Name" required/>
+                </div>
+                <div class="ccupation">
+                    <p>Occupation:</p>
+                    <input class="input" id="Occupation" placeholder="Enter Your Occupation" type="text" title="Occupation" required/>
+                </div>
+                <br/><br/>
+    
+                <!-- Contact Block -->
+                <div class="email">
+                    <p>Email:</p>
+                    <input id="Email" placeholder="Enter Your Email ID" class="input" type="email" title="Email" required/>
+                </div>
+                <div class="phone">
+                    <p>Phone:</p>
+                    <input id="Phone" placeholder="Enter Your Phone Number" class="input" type="tel" title="Phone" required/>
+                </div>
+                <div class="address">
+                    <p>Address:</p>
+                    <input id="Address" placeholder="Enter Your Address" class="input" type="text" title="Address" required/>
+                </div>
+                <br/><br/>
+    
+                <!-- Education Block -->
+                <div class="education">
+                    <p>Degree and Field Name:</p>
+                    <input class="input" id="Degree" placeholder="Degree and Field Name" type="text" title="Degree" required/>
+                    <p>Start Date:</p>
+                    <input class="input" id="EducationStart" type="date" title="Education Start" required/>
+                    <p>End Date:</p>
+                    <input class="input" id="EducationEnd" type="date" title="Education End" required/>
+                    <p>University Name:</p>
+                    <input class="input" id="UniversityName" placeholder="University Name" type="text" title="University" required/>
+                    <p>Any Achievements:</p>
+                    <textarea class="input" id="Achievements" title="Achievements" rows="4" cols="30" placeholder="Any Achievements You Achieved"></textarea>
+                </div>
+                <br/><br/>
+    
+                <!-- Experience Block -->
+                <div class="experience">
+                    <p>Experience:</p>
+                    <textarea class="input" id="Experience" title="Experience" rows="4" cols="30" placeholder="Enter Your Experience"></textarea>
+                    <p>Company Name:</p>
+                    <input class="input" id="CompanyName" placeholder="Company Name" type="text" title="Company Name"/>
+                    <p>Company Details:</p>
+                    <textarea class="input" id="CompanyDetails" title="Company Details" rows="4" cols="30" placeholder="Company Details"></textarea>
+                    <p>Start Date:</p>
+                    <input class="input" id="JobStart" type="date" title="Job Start"/>
+                    <p>End Date:</p>
+                    <input class="input" id="JobEnd" type="date" title="Job End"/>
+                </div>
+                <br/><br/>
+    
+                <!-- Skills Block -->
+                <div class="kills">
+                    <p>Skills:</p>
+                    <textarea class="input" id="Skills" title="Skills" rows="4" cols="30" placeholder="Enter Your Skills" required></textarea>
+                </div>
+                <br/><br/>
+    
+                <!-- Upload Image Block -->
+                <div class="uploadimg">
+                    <p>Upload Image:</p>
+                    <input id="Uploadimg" placeholder="Upload Your Image" class="input" title="Upload" type="file" name="dp"/>
+                </div>
+                <br/><br/>
+    
+                <!-- Submit Button -->
+                <div class="submitbutton">
+                    <button id="Print-Button" class="input" title="submit" type="submit">Generate Resume</button>
+                </div>
+            
+        <div id="resumeOutput"></div>
+        <script src="script.js"></script>
+
+    </form>
+</div>
+</div>
+  </body>
+</html>

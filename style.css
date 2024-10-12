@@ -1,0 +1,252 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #d6d6d6;
+}
+
+.main-div {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 70px;
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 0 40px #454545;
+}
+
+.sec-div {
+  color: white;
+  text-align: left;
+  text-transform:capitalize;
+}
+
+.input {
+  padding: 7px;
+  border-radius: 7px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px; /* Added spacing between input fields */
+}
+.input:focus {
+  box-shadow: 0 0 9px #828282;
+}
+
+#resumeOutput {
+  padding: 20px;
+  color: white;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 7px #ffffff;
+  margin-top: 20px; /* Added spacing above the resume output */
+}
+
+/* Additional improvements for better readability */
+.name p,
+.occupation p,
+.email p,
+.phone p,
+.address p,
+.education p,
+.skills p,
+.experience p,
+.uploadimg p {
+  margin-bottom: 5px;
+}
+
+textarea {
+  margin-bottom: 15px; /* Added spacing between textarea fields */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.res-one-div {
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  padding: 30px;
+  margin: -0px;
+  align-items: center;
+}
+.hr-div {
+  height: 4px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+}
+.name {
+  text-transform: uppercase;
+  padding-right: 200px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.name-occupation-div {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px 0px 20px;
+  color: white;
+}
+.occupation {
+  float: left;
+  font-size: 25px;
+}
+
+/*  */
+
+.experience-div {
+  font-weight: 520;
+  padding: 8px 3px 8px 40px;
+  letter-spacing: 0.6px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 30px -10px 0px -10px;
+  background-color: rgba(143, 143, 143, 0.738);
+}
+.experience-data-div {
+  display: flex;
+  gap: 150px;
+  li {
+    h6 {
+      font-weight: 600;
+      font-size: 15px;
+      list-style: square;
+      margin: 3px;
+      /* margin-right: 60px; */
+    }
+    p {
+      padding-bottom: 40px;
+      font-size: 10px;
+      margin: 2px;
+    }
+  }
+  p {            
+    padding-bottom: 40px;
+    font-size: 10px;
+  }
+}
+.company-div {
+  h4 {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 10px;
+    margin: -20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    letter-spacing: 0.9px;
+  }
+}
+.data-div {
+  color:#000000;
+  background: rgb(220, 220, 220);
+}
+/* conatct skill start */
+.contact-skill-div{
+  display: flex;
+  gap: 60px;
+}
+.contact-data{
+  font-size: 13px;
+  margin-left: 30px;
+}
+.contact-div{
+  font-weight: 520;
+  padding: 8px 3px 8px 40px;
+  letter-spacing: 0.6px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 30px -10px 0px -10px;
+  background-color: rgba(143, 143, 143, 0.738);
+  width: 200px;
+}
+.skill-div{
+  font-weight: 520;
+  padding: 8px 3px 8px 40px;
+  letter-spacing: 0.6px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 30px -10px 0px -10px;
+  background-color: rgba(143, 143, 143, 0.738);
+  width: 150px;
+}
+.skills{
+  font-size: 14px;
+  display: flex;
+  column-gap: 30px;
+  margin-top: 10px;
+}
+.html, .css , .typescript , .nextjs, .tailwind{
+  height: 13px;
+  background-color:  rgba(42, 42, 42, 0.738);
+}
+.div-html{
+  width: 97px;
+  padding-left: 25px;
+}
+.div-css{
+  padding-left: 35px;
+  width: 78px;
+}
+.div-typescript{
+  padding-left: 10px;
+  width: 88px;
+}
+.div-nextjs{
+  padding-left: 10px;
+  width: 68px;
+}
+.div-tailwind{
+  padding-left: 10px;
+  width: 78px;
+}
+.fle{
+  margin-top: 10px;
+  display: flex;
+}
+.flex{
+  margin-top:10px;
+  display: flex;
+}
+.flexx{
+  display: flex;
+  margin-left: -166px;
+  margin-top:29px;
+}
+.all-div{
+  max-width: 700px;
+  padding-bottom: 40px;
+  background-color: rgb(220, 220, 220);
+}
